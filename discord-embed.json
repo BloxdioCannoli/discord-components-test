@@ -3,14 +3,21 @@
   "components": [
     {
       "type": 17,
+      "accent_color": 5793266,
       "components": [
         {
           "type": 10,
-          "content": "My Website"
+          "content": "# My Website\nCheck out my Bloxd code."
         },
         {
-          "type": 10,
-          "content": "Description of my website."
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://example.com/image.png"
+              }
+            }
+          ]
         },
         {
           "type": 1,
@@ -18,8 +25,8 @@
             {
               "type": 2,
               "style": 5,
-              "label": "View Site",
-              "url": "https://example.com"
+              "label": "View Code",
+              "url": "https://example.com/code"
             },
             {
               "type": 2,
