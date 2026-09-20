@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link
-        rel="discord:component-embed"
-        type="application/json"
-        href="/discord-embed.json"
-    >
+    <script id="discord:component-embed" type="application/json">
+        {
+            "component": {
+                "type": 17,
+                "components": [
+                    {
+                        "type": 10,
+                        "content": "# My Website"
+                    },
+                    {
+                        "type": 10,
+                        "content": "This is my website."
+                    },
+                    {
+                        "type": 12,
+                        "items": [
+                            {
+                                "media": {
+                                    "url": "https://example.com/image.png"
+                                },
+                                "description": "My image"
+                            }
+                        ]
+                    },
+                    {
+                        "type": 1,
+                        "components": [
+                            {
+                                "type": 2,
+                                "style": 5,
+                                "url": "https://example.com",
+                                "label": "Visit Website"
+                            },
+                            {
+                                "type": 2,
+                                "style": 5,
+                                "url": "https://github.com",
+                                "label": "GitHub"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    </script>
 </head>
 <body>
     Hi im the body
